@@ -23,7 +23,7 @@ jobs:
       id: go
 
     - name: Check out code into the Go module dir
-      uses: actions/cheout@v4
+      uses: actions/checkout@v4
 
     - name: Test
       run: make test
