@@ -23,6 +23,7 @@ ORDER BY id
 LIMIT $2
 OFFSET $3;
 
+
 -- name: UpdateAccount :one
 UPDATE accounts
 SET balance = $2
