@@ -1,4 +1,4 @@
-module github.com/junasliang/go_backend
+module github.com/junasliang/go_simplebank
 
 go 1.25.3
 
